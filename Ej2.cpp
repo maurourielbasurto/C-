@@ -9,6 +9,7 @@
  * 
  */
 
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -20,6 +21,8 @@ class Contacto
 private:
     string nombre;
     string telefono;
+    string cont;
+
 
 public:
     Contacto(string nombre, string telefono)
